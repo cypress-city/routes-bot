@@ -1,4 +1,4 @@
-# players-page
+# routes-bot
 A Discord bot with information about routes (also known as "intermissions") in Mario Kart World.
 
 Add the official bot to your server: https://discord.com/oauth2/authorize?client_id=1469567980626116740
