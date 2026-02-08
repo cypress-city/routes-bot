@@ -60,7 +60,6 @@ class RouteCog(commands.Cog):
             )
         )
 
-
     @discord.app_commands.command(
         name="random",
         description="Get a random route."
@@ -91,7 +90,7 @@ class RouteCog(commands.Cog):
             embed=blue_embed(
                 title=ret.display,
                 desc=("random" + (f" from {from_track}" if from_track else "") +
-                      (f" to {from_track}" if to_track else "")) if from_track or to_track else None
+                      (f" to {to_track}" if to_track else "")) if from_track or to_track else None
             )
         )
 
